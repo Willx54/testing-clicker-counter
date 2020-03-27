@@ -8,6 +8,9 @@ class App extends Component {
       counter: 0,
       warning: false
     };
+
+    this.handleDecrement = this.handleDecrement.bind(this);
+    this.handleIncrement = this.handleIncrement.bind(this);
   }
 
   handleIncrement = () => {
